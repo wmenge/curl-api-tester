@@ -8,6 +8,9 @@
 
 ## Usage:
 
+### Step 0: Setup configuration
+
+Copy curl-config-example.txt to curl-config.txt and modify to your situation
 
 ### Step 1: Get token
 
