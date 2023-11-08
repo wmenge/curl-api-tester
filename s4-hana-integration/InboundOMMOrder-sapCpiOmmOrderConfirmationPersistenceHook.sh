@@ -1,0 +1,1 @@
+. ./InboundOMMOrder.sh sapCpiOmmOrderConfirmationPersistenceHook

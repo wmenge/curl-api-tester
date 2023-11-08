@@ -1,0 +1,27 @@
+# oauth variables
+
+variable GRANT_TYPE=password
+variable SCOPE=
+variable CLIENT_ID=<client_id>
+variable CLIENT_SECRET=<secret>
+variable USERNAME=<username>
+variable PASSWORD=<password>
+
+# project specific variables
+
+variable HOST=localhost:9002
+variable BASE_SITE=<base site>
+variable CART=current
+variable USER=current
+
+# exported by fetch-oauth2-token.sh
+variable %ACCESS_TOKEN
+
+# basic configuration
+
+insecure
+silent
+
+# Oauth token header
+
+expand-header "Authorization: Bearer {{ACCESS_TOKEN}}"
