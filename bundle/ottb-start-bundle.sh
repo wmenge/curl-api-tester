@@ -3,7 +3,7 @@ curl -K "$PROJECT_DIR/curl-config.txt" \
   -X POST \
   -H 'Content-Type: application/json' \
   --data '{
-		"templateId": "BeatleApplianceComponent",
+		"templateId": "GizmoApplianceComponent",
 		"productCode": "gizmo_B_Bk",
 		"quantity": 1
 	}'  | jq
